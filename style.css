@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+
+body {
+    background: #23252C;
+    width: 550px;
+    height: 868px;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 40px;
+    
+}
+
+.photo {
+    width: 317px;
+    top: 44px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.details, .buttons, .about, .interests {
+    background-color: #1A1B21;
+    max-width: 317px;
+
+}
+
+.details > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;    
+    margin-bottom: 0px;
+       
+}
+
+.details > h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.details > h4 {
+    margin-top: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+.buttons > a {
+    font-size: 14px;    
+    width: 115px;
+    height: 34px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.buttons > button:hover {
+    cursor: pointer;
+}
+
+.email, .email > * {
+    background: #FFFFFF;
+    color: #374151;
+}
+
+.linkedin, .linkedin > * {
+    background: #5093E2;
+}
+
+.about, .interests {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.about > h1, .interests > h1 {
+    margin-top: 0px;
+    padding-top: 33px;
+    margin-bottom: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F5F5F5;
+    min-width: 247px;  
+}
+
+.about > p, .interests > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 15px;
+    color: #DCDCDC;
+    max-width: 247px; 
+    margin-top: 0px;   
+}
+
+.interests > h1 {
+    padding-top: 5px;
+}
+
+.interests > p {
+    min-height: 70px;
+}
+
+.footer {
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    min-height: 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    font-size: 20px;
+}
+
+.footer > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.social-link {
+    background: #918E9B;
+    width: 25px;
+    height: 25px;
+}
+
+.social-link > i {
+    color: #161619;
+}
